@@ -125,7 +125,7 @@ DC sweep analysis of input voltage vs. output voltage reveals the inverter's vol
 - *CMOS VLSI Design* – Weste & Harris
 - *GPDK090 Technology Library Documentation*
 
-  ----------------------------------------------------------------**THANK YOU**-------------------------------------------------------------------------
+  ------------------------------------------------**THANK YOU**--------------------------------------------------------------
 
 
 
