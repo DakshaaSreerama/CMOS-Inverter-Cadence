@@ -1,4 +1,4 @@
-# CMOS Inverter Design using Cadence Virtuoso (GPDK090)
+# CMOS Inverter Design using Cadence Virtuoso
 
 This project demonstrates the design, simulation, and verification of a CMOS inverter using **Cadence Virtuoso** with the **GPDK 90nm** technology library. The CMOS inverter, a fundamental digital logic gate, is used to invert binary signals and serves as the building block for more complex logic circuits.
 
@@ -53,7 +53,7 @@ This behavior ensures:
 
 This is the core schematic showing the PMOS and NMOS transistors connected to form a CMOS inverter.
 
-![Inverter Schematic](inverter_schematic.png)
+![Inverter Schematic](https://github.com/DakshaaSreerama/CMOS-Inverter-Cadence/blob/main/inverter_schematic.PNG?raw=true)
 
 ---
 
@@ -61,7 +61,7 @@ This is the core schematic showing the PMOS and NMOS transistors connected to fo
 
 The symbol view was auto-generated from the schematic to allow easy reuse in other designs or testbenches.
 
-![Inverter Symbol](inverter_symbol.png)
+![Inverter Symbol](https://github.com/DakshaaSreerama/CMOS-Inverter-Cadence/blob/main/inverter_symbol.PNG?raw=true)
 
 ---
 
@@ -69,7 +69,7 @@ The symbol view was auto-generated from the schematic to allow easy reuse in oth
 
 The testbench uses a `vpulse` source to drive the inverter input and a `vdc` for power supply. The output is observed using simulation tools.
 
-![Inverter Testbench](inverter_testbench.png)
+![Inverter Testbench](https://github.com/DakshaaSreerama/CMOS-Inverter-Cadence/blob/main/inverter_testbench.PNG?raw=true)
 
 ---
 
@@ -77,7 +77,7 @@ The testbench uses a `vpulse` source to drive the inverter input and a `vdc` for
 
 The waveform below shows how the inverter reacts to a square wave input, confirming its switching behavior.
 
-![Transient Simulation](trans_resp.png)
+![Transient Simulation](https://github.com/DakshaaSreerama/CMOS-Inverter-Cadence/blob/main/trans_resp.PNG?raw=true)
 
 ---
 
@@ -85,7 +85,7 @@ The waveform below shows how the inverter reacts to a square wave input, confirm
 
 DC sweep analysis of input voltage vs. output voltage reveals the inverter's voltage transfer characteristics.
 
-![DC Sweep Analysis](dc_resp.png)
+![DC Sweep Analysis](https://github.com/DakshaaSreerama/CMOS-Inverter-Cadence/blob/main/dc_resp.PNG?raw=true)
 
 
 ##  Steps Followed
@@ -124,6 +124,8 @@ DC sweep analysis of input voltage vs. output voltage reveals the inverter's vol
 - *Cadence Virtuoso User Guide*
 - *CMOS VLSI Design* – Weste & Harris
 - *GPDK090 Technology Library Documentation*
+
+  ----------------------------------------------------------------**THANK YOU**-------------------------------------------------------------------------
 
 
 
