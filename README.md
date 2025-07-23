@@ -2,7 +2,7 @@
 
 This project demonstrates the design, simulation, and verification of a CMOS inverter using **Cadence Virtuoso** with the **GPDK 90nm** technology library. The CMOS inverter, a fundamental digital logic gate, is used to invert binary signals and serves as the building block for more complex logic circuits.
 
----
+
 
 ## Overview
 
@@ -15,7 +15,7 @@ This behavior ensures:
 - **Full voltage swing**
 - **High noise immunity**
 
----
+
 
 ## Objectives
 
@@ -25,7 +25,7 @@ This behavior ensures:
 - Perform DC and transient analysis
 - Analyze output waveform behavior
 
----
+
 
 ## Tools & Technologies
 
@@ -53,7 +53,7 @@ This behavior ensures:
 
 This is the core schematic showing the PMOS and NMOS transistors connected to form a CMOS inverter.
 
-![Inverter Schematic](images/inverter_schematic.png)
+![Inverter Schematic](inverter_schematic.png)
 
 ---
 
@@ -61,7 +61,7 @@ This is the core schematic showing the PMOS and NMOS transistors connected to fo
 
 The symbol view was auto-generated from the schematic to allow easy reuse in other designs or testbenches.
 
-![Inverter Symbol](images/inverter_symbol.png)
+![Inverter Symbol](inverter_symbol.png)
 
 ---
 
@@ -69,7 +69,7 @@ The symbol view was auto-generated from the schematic to allow easy reuse in oth
 
 The testbench uses a `vpulse` source to drive the inverter input and a `vdc` for power supply. The output is observed using simulation tools.
 
-![Inverter Testbench](images/inverter_testbench.png)
+![Inverter Testbench](inverter_testbench.png)
 
 ---
 
@@ -77,7 +77,7 @@ The testbench uses a `vpulse` source to drive the inverter input and a `vdc` for
 
 The waveform below shows how the inverter reacts to a square wave input, confirming its switching behavior.
 
-![Transient Simulation](images/trans_resp.png)
+![Transient Simulation](trans_resp.png)
 
 ---
 
@@ -85,7 +85,7 @@ The waveform below shows how the inverter reacts to a square wave input, confirm
 
 DC sweep analysis of input voltage vs. output voltage reveals the inverter's voltage transfer characteristics.
 
-![DC Sweep Analysis](images/dc_resp.png)
+![DC Sweep Analysis](dc_resp.png)
 
 
 ##  Steps Followed
